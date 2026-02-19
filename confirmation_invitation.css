@@ -1,0 +1,17 @@
+#title {
+  color: green;
+  font-size: 90px;
+  text-align: center;
+} .invitation {
+  width: 840px;
+  height: 967px;
+  border: solid 5px;
+} .text {
+  margin: 10px 15px;
+} .parent {
+  display: flex;
+  justify-content: center;
+} img {
+  height: 235px;
+  margin: 10px 15px;
+}
