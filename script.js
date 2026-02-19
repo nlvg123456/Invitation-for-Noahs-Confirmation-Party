@@ -40,3 +40,4 @@ if (language.startsWith("nl")) {
   messageText.textContent = "You can send me your answer here:";
   hope.innerHTML = "I hope that you can come!"
 }
+
