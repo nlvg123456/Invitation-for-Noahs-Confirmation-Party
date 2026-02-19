@@ -1,18 +1,27 @@
 #title {
   color: green;
   font-size: 90px;
+  font-family: Papyrus;
   text-align: center;
+  margin: 25px;
 } .invitation {
   width: 840px;
   height: 967px;
   border: solid 5px;
 } .text {
   margin: 10px 15px;
+  font-family: Papyrus;
 } .parent {
   display: flex;
   justify-content: center;
 } img {
   height: 235px;
   margin: 10px 15px;
+} img {
+  font-family: Papyrus;
+} #textarea {
   background-color: lightgray;
+  border: solid 1px gray;
+  border-radius: 2px;
+  font-color: darkgray;
 }
