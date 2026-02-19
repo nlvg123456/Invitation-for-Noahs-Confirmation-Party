@@ -11,7 +11,7 @@ const img3 = document.getElementById("img3");
 const img4 = document.getElementById("img4");
 const hourCycle = new Intl.DateTimeFormat(undefined, { hour: 'numeric' }).resolvedOptions().hourCycle;
 const isMilitary = hourCycle === 'h23' || hourCycle === 'h24';
-if (language.startsWith("en")) {
+if (language.startsWith("nl")) {
   document.title = "Uitnodiging voor Noah's vormselfeest";
   title.innerHTML = "Uitnodiging voor Noah's vormselfeest";
   where.innerHTML = 'Waar: <a href="https://www.google.com/maps/place/Heggli+G%C3%A5rd/@63.5231054,9.9463848,17z/data=!3m1!4b1!4m6!3m5!1s0x4612c98755fe6073:0xebd9c3e204aa67c5!8m2!3d63.523103!4d9.9489544!16s%2Fg%2F11mw02brc2?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Heggli Gård</a>';
@@ -40,3 +40,4 @@ if (isMilitary && language.startsWith("en")) {
   when.innerHTML = "Velkommen kl. 2:00 PM (Det blir varm mat ca. kl. 2:30 PM, og kake litt ut på ettermiddagen.)"
 }
   
+
