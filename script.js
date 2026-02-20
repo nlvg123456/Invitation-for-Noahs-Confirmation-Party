@@ -22,7 +22,7 @@ if (language.startsWith("nl")) {
   img2.alt = "Noah met suikerspin!";
   img3.alt = "Noah bovenop een houten toren!";
   img4.alt = "Noah tijdens een wandeling, op en steen!";
-  messageText.textContent = "Jij kunt me hier je antwoord sturen:";
+  messageText.textContent = "Jij kunt me hier je antwoord sturen. (Niet vergeten je naam er bij te zetten.):";
   hope.innerHTML = "Ik hoop dat jij kan koomen!"
 } else if (language.startsWith("no")) {
   continue;
@@ -37,6 +37,7 @@ if (language.startsWith("nl")) {
   img2.alt = "Noah with coton candy!";
   img3.alt = "Noah on top of a wooden tower!";
   img4.alt = "Noah on a hike on a rock!";
-  messageText.textContent = "You can send me your answer here:";
+  messageText.textContent = "You can send me your answer here. (Don’t forget to add your name.):";
   hope.innerHTML = "I hope that you can come!"
 }
+
